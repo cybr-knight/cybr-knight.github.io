@@ -23,6 +23,7 @@
   <mat-drawer #drawer [mode]="mobileQuery.matches ? 'over' : 'side'" [opened]="!mobileQuery.matches">
     <nav class="side-nav">
       <button mat-button class="nav-button" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</button>
+      <button mat-button class="nav-button" routerLink="/about" routerLinkActive="active">About</button>
       <button mat-button class="nav-button" routerLink="/experience" routerLinkActive="active">Experience</button>
       <button mat-button class="nav-button" routerLink="/education" routerLinkActive="active">Education</button>
       <button mat-button class="nav-button" routerLink="/projects" routerLinkActive="active">Projects</button>

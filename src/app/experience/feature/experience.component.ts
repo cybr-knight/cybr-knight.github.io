@@ -8,7 +8,6 @@ import {ColouredBoxComponent} from '../../shared/ui/coloured-box/coloured-box.co
 import {Job} from '../../shared/models/job';
 import {TerminalTextComponent} from '../../shared/ui/terminal-text/terminal-text.component';
 import {Colours} from '../../shared/enums/colours';
-import {AnimatedTextComponent} from '../../shared/ui/animated-text/animated-text.component';
 import {Observable} from 'rxjs';
 
 @Component({
@@ -18,7 +17,6 @@ import {Observable} from 'rxjs';
         NgOptimizedImage,
         SortExperienceByYearPipe,
         ColouredBoxComponent,
-        AnimatedTextComponent,
         TerminalTextComponent,
         MatProgressBar,
         AsyncPipe
@@ -27,7 +25,6 @@ import {Observable} from 'rxjs';
     styleUrl: './experience.component.css'
 })
 export class ExperienceComponent {
-    readonly Dialogue = "Welcome to my job experience page! As you can see, I was a Blackjack dealer long before I wrote my first program and I haven't looked back since!";
     readonly TerminalText = ["Experience"];
     readonly Blue = Colours.Blue;
 
