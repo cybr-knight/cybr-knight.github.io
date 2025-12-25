@@ -8,15 +8,4 @@
     border: 2px solid slategray;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: transform 0.1s ease-in-out;
-}
-
-.coloured-box:hover {
-    animation: jiggle 0.4s ease-in-out forwards;
-}
-
-@keyframes jiggle {
-    0% { transform: rotate(-2deg); }
-    50% { transform: rotate(2deg); }
-    100% { transform: rotate(-2deg); }
 }

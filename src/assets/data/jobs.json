@@ -1,11 +1,11 @@
 [
   {
     "id": 0,
-    "title": "ITD Graduate",
+    "title": "Software Developer",
     "organisation": "Department of Health and Aged Care",
     "startDate": "2024",
     "endDate": "Current",
-    "description": "Currently working in the Health Business Applications section, in the Corporate Systems branch, in the ITD division, in the Department of Health and Aged Care, in the APS, under the government of the day, for the people of Australia. I code things."
+    "description": "Leading modernisation efforts to rebuild legacy application with a cloud-centred approach using Angular, Micronaut, and Azure."
   },
   {
     "id": 1,
