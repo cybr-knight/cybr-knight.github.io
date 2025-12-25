@@ -1,16 +1,13 @@
-import { Component } from '@angular/core';
-import { AsyncPipe, NgFor } from "@angular/common";
-import { NgIf } from '@angular/common';
-import { MatProgressBar } from '@angular/material/progress-bar';
-import { FavouriteGamesService } from "../../data-access/favourite-games.service";
-import { Game } from "../../../shared/models/game";
-import { Observable } from 'rxjs';
+import {Component} from '@angular/core';
+import {AsyncPipe} from "@angular/common";
+import {MatProgressBar} from '@angular/material/progress-bar';
+import {FavouriteGamesService} from "../../data-access/favourite-games.service";
+import {Game} from "../../../shared/models/game";
+import {Observable} from 'rxjs';
 
 @Component({
     selector: 'app-favourite-games',
     imports: [
-        NgFor,
-        NgIf,
         AsyncPipe,
         MatProgressBar
     ],
@@ -18,9 +15,9 @@ import { Observable } from 'rxjs';
     styleUrl: './favourite-games.component.css'
 })
 export class FavouriteGamesComponent {
-  games$: Observable<Game[]>;
+    games$: Observable<Game[]>;
 
-  constructor(private gamesService: FavouriteGamesService) {
-    this.games$ = this.gamesService.getGames();
-  }
+    constructor(private gamesService: FavouriteGamesService) {
+        this.games$ = this.gamesService.getGames();
+    }
 }
