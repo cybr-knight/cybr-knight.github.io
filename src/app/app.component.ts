@@ -1,5 +1,5 @@
 import {ChangeDetectorRef, Component, HostListener} from '@angular/core';
-import {NgOptimizedImage, NgIf} from '@angular/common';
+import { NgOptimizedImage } from '@angular/common';
 import {Router, RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
 import {MediaMatcher} from '@angular/cdk/layout';
 import {MatSidenavModule} from '@angular/material/sidenav';
@@ -21,21 +21,20 @@ const KeyboardsRoute = "/keyboards";
 @Component({
     selector: 'app-root',
     imports: [
-        NgIf,
-        NgOptimizedImage,
-        RouterOutlet,
-        FooterComponent,
-        MatSidenavModule,
-        MatButtonModule,
-        RouterOutlet,
-        RouterLink,
-        RouterLinkActive,
-        MatToolbarModule,
-        MatIconModule,
-        MatTooltipModule,
-        KeycapComponent,
-        SpacerComponent
-    ],
+    NgOptimizedImage,
+    RouterOutlet,
+    FooterComponent,
+    MatSidenavModule,
+    MatButtonModule,
+    RouterOutlet,
+    RouterLink,
+    RouterLinkActive,
+    MatToolbarModule,
+    MatIconModule,
+    MatTooltipModule,
+    KeycapComponent,
+    SpacerComponent
+],
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
     standalone: true,
