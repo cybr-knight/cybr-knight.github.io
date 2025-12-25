@@ -1,0 +1,42 @@
+[
+  {
+    "id": 0,
+    "title": "Star Wars: Knights of the Old Republic",
+    "year": 2003
+  },
+  {
+    "id": 1,
+    "title": "Mass Effect 2",
+    "year": 2010
+  },
+  {
+    "id": 2,
+    "title": "Fallout: New Vegas",
+    "year": 2010
+  },
+  {
+    "id": 3,
+    "title": "Witcher 3: Wild Hunt",
+    "year": 2015
+  },
+  {
+    "id": 4,
+    "title": "Dark Souls",
+    "year": 2011
+  },
+  {
+    "id": 5,
+    "title": "Star Wars: Battlefront 2",
+    "year": 2005
+  },
+  {
+    "id": 6,
+    "title": "Pokemon: Red",
+    "year": 1996
+  },
+  {
+    "id": 7,
+    "title": "Hollow Knight",
+    "year": 2017
+  }
+]
