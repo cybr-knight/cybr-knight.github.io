@@ -7,16 +7,15 @@ import { FavouriteSoundsService } from "../../data-access/favourite-sounds.servi
 import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-favourite-sounds',
-  standalone: true,
-  imports: [
-    NgFor,
-    NgIf,
-    AsyncPipe,
-    MatProgressBar
-  ],
-  templateUrl: './favourite-sounds.component.html',
-  styleUrl: './favourite-sounds.component.css'
+    selector: 'app-favourite-sounds',
+    imports: [
+        NgFor,
+        NgIf,
+        AsyncPipe,
+        MatProgressBar
+    ],
+    templateUrl: './favourite-sounds.component.html',
+    styleUrl: './favourite-sounds.component.css'
 })
 export class FavouriteSoundsComponent {
   soundsList$: Observable<Sound[]>;

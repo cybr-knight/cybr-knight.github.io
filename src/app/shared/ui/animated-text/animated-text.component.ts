@@ -1,11 +1,10 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-animated-text',
-  standalone: true,
-  imports: [],
-  templateUrl: './animated-text.component.html',
-  styleUrl: './animated-text.component.css'
+    selector: 'app-animated-text',
+    imports: [],
+    templateUrl: './animated-text.component.html',
+    styleUrl: './animated-text.component.css'
 })
 export class AnimatedTextComponent {
   readonly IntervalTime = 7;

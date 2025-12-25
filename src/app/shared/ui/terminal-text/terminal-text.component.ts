@@ -6,11 +6,10 @@ interface IntervalObserver {
 }
 
 @Component({
-  selector: 'app-terminal-text',
-  standalone: true,
-  imports: [],
-  templateUrl: './terminal-text.component.html',
-  styleUrl: './terminal-text.component.css'
+    selector: 'app-terminal-text',
+    imports: [],
+    templateUrl: './terminal-text.component.html',
+    styleUrl: './terminal-text.component.css'
 })
 export class TerminalTextComponent {
   readonly colours: string[];

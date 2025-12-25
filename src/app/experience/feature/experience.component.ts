@@ -12,22 +12,21 @@ import { AnimatedTextComponent } from '../../shared/ui/animated-text/animated-te
 import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-experience',
-  standalone: true,
-  imports: [
-    MatCardModule,
-    NgFor,
-    NgIf,
-    NgOptimizedImage,
-    SortExperienceByYearPipe,
-    ColouredBoxComponent,
-    AnimatedTextComponent,
-    TerminalTextComponent,
-    MatProgressBar,
-    AsyncPipe
-  ],
-  templateUrl: './experience.component.html',
-  styleUrl: './experience.component.css'
+    selector: 'app-experience',
+    imports: [
+        MatCardModule,
+        NgFor,
+        NgIf,
+        NgOptimizedImage,
+        SortExperienceByYearPipe,
+        ColouredBoxComponent,
+        AnimatedTextComponent,
+        TerminalTextComponent,
+        MatProgressBar,
+        AsyncPipe
+    ],
+    templateUrl: './experience.component.html',
+    styleUrl: './experience.component.css'
 })
 export class ExperienceComponent {
   readonly Dialogue = "Welcome to my job experience page! As you can see, I was a Blackjack dealer long before I wrote my first program and I haven't looked back since!";

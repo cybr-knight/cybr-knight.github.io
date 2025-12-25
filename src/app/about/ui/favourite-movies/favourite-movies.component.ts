@@ -7,16 +7,15 @@ import { Movie } from "../../../shared/models/movie";
 import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-favourite-movies',
-  standalone: true,
-  imports: [
-    NgFor,
-    NgIf,
-    AsyncPipe,
-    MatProgressBar
-  ],
-  templateUrl: './favourite-movies.component.html',
-  styleUrl: './favourite-movies.component.css'
+    selector: 'app-favourite-movies',
+    imports: [
+        NgFor,
+        NgIf,
+        AsyncPipe,
+        MatProgressBar
+    ],
+    templateUrl: './favourite-movies.component.html',
+    styleUrl: './favourite-movies.component.css'
 })
 export class FavouriteMoviesComponent {
   movies$: Observable<Movie[]>;

@@ -3,14 +3,13 @@ import { TerminalTextComponent } from '../../shared/ui/terminal-text/terminal-te
 import { NgOptimizedImage } from '@angular/common';
 
 @Component({
-  selector: 'app-keyboards',
-  standalone: true,
-  imports: [
-    TerminalTextComponent,
-    NgOptimizedImage
-  ],
-  templateUrl: './keyboards.component.html',
-  styleUrl: './keyboards.component.css'
+    selector: 'app-keyboards',
+    imports: [
+        TerminalTextComponent,
+        NgOptimizedImage
+    ],
+    templateUrl: './keyboards.component.html',
+    styleUrl: './keyboards.component.css'
 })
 export class KeyboardsComponent {
 

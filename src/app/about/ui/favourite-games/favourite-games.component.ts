@@ -7,16 +7,15 @@ import { Game } from "../../../shared/models/game";
 import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-favourite-games',
-  standalone: true,
-  imports: [
-    NgFor,
-    NgIf,
-    AsyncPipe,
-    MatProgressBar
-  ],
-  templateUrl: './favourite-games.component.html',
-  styleUrl: './favourite-games.component.css'
+    selector: 'app-favourite-games',
+    imports: [
+        NgFor,
+        NgIf,
+        AsyncPipe,
+        MatProgressBar
+    ],
+    templateUrl: './favourite-games.component.html',
+    styleUrl: './favourite-games.component.css'
 })
 export class FavouriteGamesComponent {
   games$: Observable<Game[]>;

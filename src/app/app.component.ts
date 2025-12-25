@@ -20,27 +20,26 @@ const ProjectsRoute = "/projects";
 const KeyboardsRoute = "/keyboards";
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [
-      NgIf,
-    NgOptimizedImage,
-    RouterOutlet, 
-    HomeComponent, 
-    FooterComponent,
-    MatSidenavModule, 
-    MatButtonModule, 
-    RouterOutlet, 
-    RouterLink, 
-    RouterLinkActive, 
-    MatToolbarModule,
-    MatIconModule,
-    MatTooltipModule,
-      KeycapComponent,
-      SpacerComponent
-  ],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+    selector: 'app-root',
+    imports: [
+        NgIf,
+        NgOptimizedImage,
+        RouterOutlet,
+        HomeComponent,
+        FooterComponent,
+        MatSidenavModule,
+        MatButtonModule,
+        RouterOutlet,
+        RouterLink,
+        RouterLinkActive,
+        MatToolbarModule,
+        MatIconModule,
+        MatTooltipModule,
+        KeycapComponent,
+        SpacerComponent
+    ],
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.css'
 })
 export class AppComponent {
   readonly Title = 'coreyBarrDev';

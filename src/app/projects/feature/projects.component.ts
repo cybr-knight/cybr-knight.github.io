@@ -13,23 +13,22 @@ import { Project } from '../../shared/models/project';
 import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-projects',
-  standalone: true,
-  imports: [
-    NgFor,
-    NgIf,
-    AsyncPipe,
-    NgOptimizedImage,
-    MatCardModule,
-    MatButtonModule,
-    MatProgressBar,
-    ColouredBoxComponent,
-    AnimatedTextComponent,
-    TerminalTextComponent,
-    SortProjectsByYearPipe
-  ],
-  templateUrl: './projects.component.html',
-  styleUrl: './projects.component.css',
+    selector: 'app-projects',
+    imports: [
+        NgFor,
+        NgIf,
+        AsyncPipe,
+        NgOptimizedImage,
+        MatCardModule,
+        MatButtonModule,
+        MatProgressBar,
+        ColouredBoxComponent,
+        AnimatedTextComponent,
+        TerminalTextComponent,
+        SortProjectsByYearPipe
+    ],
+    templateUrl: './projects.component.html',
+    styleUrl: './projects.component.css'
 })
 export class ProjectsComponent {
   readonly Dialogue = "My favourite aspect of programming is being able to create almost anything that I can think of. Here are some of my personal favourite projects."
