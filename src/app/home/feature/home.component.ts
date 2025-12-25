@@ -5,15 +5,15 @@ import { TerminalTextComponent } from '../../shared/ui/terminal-text/terminal-te
 import { Colours } from '../../shared/enums/colours';
 
 @Component({
-  selector: 'app-home',
-  standalone: true,
-  imports: [
-    NgOptimizedImage,
-    ColouredBoxComponent,
-    TerminalTextComponent
-  ],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+    selector: 'app-home',
+    imports: [
+        NgOptimizedImage,
+        ColouredBoxComponent,
+        TerminalTextComponent
+    ],
+    templateUrl: './home.component.html',
+    styleUrl: './home.component.css',
+    standalone: true,
 })
 export class HomeComponent {
   readonly Blue = Colours.Blue;

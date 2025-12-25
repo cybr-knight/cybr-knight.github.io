@@ -1,11 +1,10 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-spacer',
-  standalone: true,
-  imports: [],
-  templateUrl: './spacer.component.html',
-  styleUrl: './spacer.component.css'
+    selector: 'app-spacer',
+    templateUrl: './spacer.component.html',
+    styleUrl: './spacer.component.css',
+    standalone: true,
 })
 export class SpacerComponent {
   @Input()
