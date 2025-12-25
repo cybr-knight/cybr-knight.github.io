@@ -22,24 +22,11 @@
 <mat-drawer-container class="nav-bar-container">
   <mat-drawer #drawer [mode]="mobileQuery.matches ? 'over' : 'side'" [opened]="!mobileQuery.matches">
     <nav class="side-nav">
-      <button mat-button class="nav-button" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home <app-spacer [characterLength]="12"/> @if (!mobileQuery.matches) {
-        <app-keycap character="1"/>
-      }</button>
-      <button mat-button class="nav-button" routerLink="/about" routerLinkActive="active">About Me <app-spacer [characterLength]="8"/> @if (!mobileQuery.matches) {
-        <app-keycap character="2"/>
-      }</button>
-      <button mat-button class="nav-button" routerLink="/experience" routerLinkActive="active">Experience <app-spacer [characterLength]="6"/> @if (!mobileQuery.matches) {
-        <app-keycap character="3"/>
-      }</button>
-      <button mat-button class="nav-button" routerLink="/education" routerLinkActive="active">Education <app-spacer [characterLength]="7"/> @if (!mobileQuery.matches) {
-        <app-keycap character="4"/>
-      }</button>
-      <button mat-button class="nav-button" routerLink="/projects" routerLinkActive="active">Projects <app-spacer [characterLength]="8"/> @if (!mobileQuery.matches) {
-        <app-keycap character="5"/>
-      }</button>
-      <button mat-button class="nav-button" routerLink="/keyboards" routerLinkActive="active">Keyboards<app-spacer [characterLength]="8"/> @if (!mobileQuery.matches) {
-        <app-keycap character="6"/>
-      }</button>
+      <button mat-button class="nav-button" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</button>
+      <button mat-button class="nav-button" routerLink="/experience" routerLinkActive="active">Experience</button>
+      <button mat-button class="nav-button" routerLink="/education" routerLinkActive="active">Education</button>
+      <button mat-button class="nav-button" routerLink="/projects" routerLinkActive="active">Projects</button>
+      <button mat-button class="nav-button" routerLink="/keyboards" routerLinkActive="active">Keyboards</button>
     </nav>
   </mat-drawer>
   <main class="nav-content">
