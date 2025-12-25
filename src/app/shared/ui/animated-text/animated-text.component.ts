@@ -1,36 +1,37 @@
-import {Component, Input} from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
-    selector: 'app-animated-text',
-    templateUrl: './animated-text.component.html',
-    styleUrl: './animated-text.component.css',
-    standalone: true,
+  selector: 'app-animated-text',
+  standalone: true,
+  imports: [],
+  templateUrl: './animated-text.component.html',
+  styleUrl: './animated-text.component.css'
 })
 export class AnimatedTextComponent {
-    readonly IntervalTime = 7;
+  readonly IntervalTime = 7;
+  
+  @Input()
+  text!: string;
 
-    @Input()
-    text!: string;
+  displayedText: string;
 
-    displayedText: string;
+  constructor() {
+    this.displayedText = "";
+  }
 
-    constructor() {
-        this.displayedText = "";
-    }
+  ngOnInit() {
+    this.animateText();
+  }
 
-    ngOnInit() {
-        this.animateText();
-    }
-
-    animateText(): void {
-        let index = 0;
-        const intervalId = setInterval(() => {
-            if (index >= this.text.length) {
-                clearInterval(intervalId);
-                return;
-            }
-            this.displayedText += this.text[index];
-            index++;
-        }, this.IntervalTime);
-    }
+  animateText(): void  {
+    let index = 0;
+    const intervalId = setInterval(() => {
+      if (index >= this.text.length) {
+        clearInterval(intervalId);
+        return;
+      } 
+      this.displayedText += this.text[index];
+      index++;
+    }, this.IntervalTime);
+  }
 }

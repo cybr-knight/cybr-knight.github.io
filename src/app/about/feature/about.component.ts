@@ -10,7 +10,8 @@ import { TerminalTextComponent } from '../../shared/ui/terminal-text/terminal-te
 import { Colours } from '../../shared/enums/colours';
 
 @Component({
-    selector: 'app-about',
+  selector: 'app-about',
+  standalone: true,
     imports: [
         MatTabsModule,
         NgOptimizedImage,
@@ -21,9 +22,8 @@ import { Colours } from '../../shared/enums/colours';
         AnimatedTextComponent,
         TerminalTextComponent
     ],
-    templateUrl: './about.component.html',
-    styleUrl: './about.component.css',
-    standalone: true,
+  templateUrl: './about.component.html',
+  styleUrl: './about.component.css'
 })
 export class AboutComponent {
   readonly Dialogue = "I don't know what to say about myself, so instead I'll share some of my favourite stuff. ¯\\_(ツ)_/¯ ";
