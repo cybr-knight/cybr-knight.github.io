@@ -1,0 +1,112 @@
+/* Base window */
+.terminal-window {
+    width: 80vw;
+    max-width: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: "Fira Code", "JetBrains Mono", "Ubuntu Mono",
+    ui-monospace, SFMono-Regular, monospace;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6);
+    margin: 40px;
+}
+
+/* Gruvbox palette */
+.gruvbox {
+    --bg: #282828;
+    --bg-soft: #32302f;
+    --fg: #ebdbb2;
+    --fg-dim: #a89984;
+    --red: #cc241d;
+    --green: #98971a;
+    --yellow: #d79921;
+    --blue: #458588;
+    --purple: #b16286;
+    --aqua: #689d6a;
+    --gray: #928374;
+}
+
+/* Title bar */
+.terminal-titlebar {
+    background: linear-gradient(#3c3836, #32302f);
+    height: 36px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    color: var(--fg);
+    font-size: 13px;
+}
+
+.window-controls {
+    display: flex;
+    gap: 8px;
+    margin-right: 12px;
+}
+
+.control {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.control.close {
+    background: var(--red);
+}
+.control.minimize {
+    background: var(--yellow);
+}
+.control.maximize {
+    background: var(--green);
+}
+
+.title {
+    flex: 1;
+    text-align: center;
+    color: var(--fg-dim);
+    pointer-events: none;
+}
+
+/* Terminal content */
+.terminal-content {
+    background: var(--bg);
+    color: var(--fg);
+    margin: 0;
+    padding: 16px 18px;
+    font-size: 14px;
+    line-height: 1.55;
+    white-space: pre-wrap;
+}
+
+/* Prompt styling */
+.user {
+    color: var(--green);
+}
+.host {
+    color: var(--yellow);
+}
+.path {
+    color: var(--blue);
+}
+.prompt {
+    color: var(--fg);
+}
+
+/* Output */
+.output {
+    color: var(--fg-dim);
+}
+
+/* Cursor */
+.cursor {
+    display: inline-block;
+    width: 8px;
+    height: 17px;
+    background: var(--fg);
+    margin-left: 1px;
+    animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}

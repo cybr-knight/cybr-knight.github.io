@@ -36,6 +36,7 @@ p {
   color: #3a3a3a;
 }
 
+/* Containers */
 .centred {
   display: flex;
   align-items: center;
@@ -52,6 +53,19 @@ p {
   padding-right: 40px;
 }
 
+.loading-container {
+  width: 100%;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .dialog {
   display: flex;
   flex-direction: column;
@@ -59,10 +73,7 @@ p {
   justify-content: center;
 }
 
-.loading-container {
-  width: 100%;
-}
-
+/* Accessibility */
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
   clip-path: inset(50%);
@@ -74,6 +85,7 @@ p {
   position: absolute;
 }
 
+/* Animations */
 .zoom-in {
   transition: transform 0.3s ease;
 }

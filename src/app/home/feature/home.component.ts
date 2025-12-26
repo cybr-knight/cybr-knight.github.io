@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NgOptimizedImage } from "@angular/common";
 import { ColouredBoxComponent } from '../../shared/ui/coloured-box/coloured-box.component';
-import { TerminalTextComponent } from '../../shared/ui/terminal-text/terminal-text.component';
+import { TerminalComponent } from '../ui/terminal/terminal.component';
 import { Colours } from '../../shared/enums/colours';
 
 @Component({
@@ -9,7 +9,7 @@ import { Colours } from '../../shared/enums/colours';
     imports: [
         NgOptimizedImage,
         ColouredBoxComponent,
-        TerminalTextComponent
+        TerminalComponent
     ],
     templateUrl: './home.component.html',
     styleUrl: './home.component.css'
@@ -17,5 +17,23 @@ import { Colours } from '../../shared/enums/colours';
 export class HomeComponent {
   readonly Blue = Colours.Blue;
   readonly Green = Colours.Green;
-  readonly textList = ["Hello world", "I'm Corey", "I code stuff"];
+  readonly textList = [
+      "Hello world",
+      "I'm Corey",
+      "I code stuff",
+      "I use vim btw",
+      "Please ask me about it",
+      "I need validation",
+      "I mean, technically I use IdeaVim in IntelliJ...",
+      "But I still get brownie points, right?",
+      "I also use a split ergonomic keyboard",
+      "I know, it's pretty cool",
+      "Did you know I care lots about ergonomics and optimisations?",
+      "No?",
+      "Well, I do.",
+      "Are you still here?",
+      "I thought you would have gone to a different page by now...",
+      "I haven't accounted for this scenario",
+      "I'll just start from the top."
+  ];
 }

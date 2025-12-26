@@ -1,18 +1,21 @@
-<div class="home-page-container">
-    <app-terminal-text [textList]="textList"></app-terminal-text>
-    <app-coloured-box [colour]="Blue">
-        <div class="centred">
-            <img ngSrc="/assets/sprites/self.gif" alt="A gif of Corey." height="160" width="160" priority>
-        </div>
-        <p>My name is <b>Corey Barr</b> and I'm a programmer from Australia 🦘</p>
-        <p>I live in Canberra and specialise in modernising legacy government applications.</p>
-        <p>Welcome to my site, you can find its source code <a href="https://github.com/coreybigboi/coreyBarrDev">here<span class="screen-reader-text">(link to a githhub repo for this website)</span></a>.</p>
-    </app-coloured-box>
-    <app-coloured-box [colour]="Green">
-        <div class="centred">
-            <img ngSrc="/assets/sprites/grug.gif" alt="A gif of grug." height="160" width="160">
-        </div>
-        <p>I am currently in a D&D campaign where I am playing as a 3/4 orc (mum was an orc, dad was a half-orc) named <b>Grug</b>, who is a fearsome fighter. He has embarked on a death pilgrimage, where hopes to find an honorable death 💀</p>
-        <p>You can find the history of Grug <a href="https://github.com/coreybigboi/dndGrug">here<span class="screen-reader-text">(link to a githhub repo for Grug's D&D campaign)</span></a>.</p>
-    </app-coloured-box>
+<div class="page-container">
+    <h1>Welcome to My Tiny Internet Corner</h1>
+    <app-terminal [textList]="textList"></app-terminal>
+    <div class="card-list">
+        <app-coloured-box [colour]="Blue">
+            <div class="centred">
+                <img ngSrc="/assets/sprites/self.gif" alt="A gif of Corey." height="160" width="160" priority>
+            </div>
+            <p>My name is <b>Corey Barr</b> and I'm a programmer from Australia 🦘</p>
+            <p>I live in Canberra and specialise in modernising legacy applications and deploying to the cloud.</p>
+            <p>Welcome to my site, you can find its source code <a href="https://github.com/coreybigboi/coreyBarrDev">here<span class="screen-reader-text">(link to a githhub repo for this website)</span></a>.</p>
+        </app-coloured-box>
+        <app-coloured-box [colour]="Green">
+            <div class="centred">
+                <img ngSrc="/assets/sprites/grug.gif" alt="A gif of grug." height="160" width="160">
+            </div>
+            <p>I am currently in a D&D campaign where I am playing as a 3/4 orc (mum was an orc, dad was a half-orc) named <b>Grug</b>, who is a fearsome fighter. He has embarked on a death pilgrimage, where hopes to find an honorable death 💀</p>
+            <p>You can find the history of Grug <a href="https://github.com/coreybigboi/dndGrug">here<span class="screen-reader-text">(link to a githhub repo for Grug's D&D campaign)</span></a>.</p>
+        </app-coloured-box>
+    </div>
 </div>
