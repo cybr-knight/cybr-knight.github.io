@@ -8,7 +8,7 @@ import { TerminalComponent } from '../ui/terminal/terminal.component';
     imports: [
         NgOptimizedImage,
         CardComponent,
-        TerminalComponent
+        TerminalComponent,
     ],
     templateUrl: './home.component.html',
     styleUrl: './home.component.css'

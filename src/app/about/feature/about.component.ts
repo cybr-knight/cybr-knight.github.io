@@ -6,6 +6,7 @@ import { FavouriteMoviesComponent } from '../ui/favourite-movies/favourite-movie
 import { FavouriteGamesComponent } from '../ui/favourite-games/favourite-games.component';
 import { CardComponent } from '../../shared/ui/card/card.component';
 import { Colours } from '../../shared/enums/colours';
+import {TranslatorComponent} from "../../shared/ui/translator/translator.component";
 
 @Component({
     selector: 'app-about',
@@ -16,6 +17,7 @@ import { Colours } from '../../shared/enums/colours';
         FavouriteMoviesComponent,
         FavouriteGamesComponent,
         CardComponent,
+        TranslatorComponent,
     ],
     templateUrl: './about.component.html',
     styleUrl: './about.component.css'
