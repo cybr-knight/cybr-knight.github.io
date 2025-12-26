@@ -1,3 +1,10 @@
+:root {
+  --primary: cornflowerblue;
+  --secondary: #ff9c00;
+  --tertiary: #00ff33;
+  --background: #001f4a;
+}
+
 html,
 body {
   max-height: 100vh;
@@ -9,6 +16,10 @@ body {
   font-family: monospace;
   font-size: large;
   background-color: rgb(26, 26, 26);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary);
 }
 
 a {
@@ -39,10 +50,6 @@ p {
   gap: 20px;
   padding-left: 40px;
   padding-right: 40px;
-}
-
-.blue {
-  color: cornflowerblue;
 }
 
 .dialog {

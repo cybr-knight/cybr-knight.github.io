@@ -4,7 +4,7 @@
 </div>
 } @else {
 <div class="favourite-games-container">
-    <h2 class="blue">My top {{(games$ | async)?.length}} favourite games 🎮</h2>
+    <h2>My top {{(games$ | async)?.length}} favourite games 🎮</h2>
     <ol>
         @for(game of (games$ | async) ?? []; track game.id) {
         <li>

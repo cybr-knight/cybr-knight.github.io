@@ -7,7 +7,6 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {SortEducationByDatePipe} from '../../shared/pipes/sort-education-by-date.pipe';
 import {EducationDownloadsComponent} from '../ui/education-downloads/education-downloads.component';
 import {ColouredBoxComponent} from '../../shared/ui/coloured-box/coloured-box.component';
-import {TerminalTextComponent} from '../../shared/ui/terminal-text/terminal-text.component';
 import {Colours} from '../../shared/enums/colours';
 import {Education} from '../../shared/models/education';
 import {EducationService} from "../data-access/education.service";
@@ -23,14 +22,12 @@ import {Observable} from 'rxjs';
         AsyncPipe,
         SortEducationByDatePipe,
         ColouredBoxComponent,
-        TerminalTextComponent,
         MatProgressBarModule,
     ],
     templateUrl: './education.component.html',
     styleUrl: './education.component.css'
 })
 export class EducationComponent {
-    readonly TerminalText = ["Education"];
     readonly Blue = Colours.Blue;
 
     educationList$: Observable<Education[]>;

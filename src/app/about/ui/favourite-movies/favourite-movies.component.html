@@ -4,7 +4,7 @@
 </div>
 } @else {
 <div class="movie-list-container">
-    <h2 class="blue">My top {{(movies$ | async)?.length}} favourite movies 🎥</h2>
+    <h2>My top {{(movies$ | async)?.length}} favourite movies 🎥</h2>
     <ol>
         @for (movie of (movies$ | async) ?? []; track movie.id) {
         <li>

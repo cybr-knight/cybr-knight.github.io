@@ -22,7 +22,7 @@
     bottom:45px;
     left: 0;
     right: 0;
-    background: linear-gradient(to bottom, whitesmoke, whitesmoke 40%, rgb(232, 232, 232)); /* white to icy blue */
+    background: linear-gradient(to bottom, whitesmoke, whitesmoke 60%, rgb(211, 211, 211));
     margin: 0;
     padding: 0;
 }
