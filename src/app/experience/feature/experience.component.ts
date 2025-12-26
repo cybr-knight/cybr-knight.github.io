@@ -4,7 +4,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatProgressBar} from '@angular/material/progress-bar';
 import {ExperienceService} from "../data-access/experience.service";
 import {SortExperienceByYearPipe} from '../../shared/pipes/sort-experience-by-year.pipe';
-import {ColouredBoxComponent} from '../../shared/ui/coloured-box/coloured-box.component';
+import {CardComponent} from '../../shared/ui/card/card.component';
 import {Job} from '../../shared/models/job';
 import {Colours} from '../../shared/enums/colours';
 import {Observable} from 'rxjs';
@@ -15,7 +15,7 @@ import {Observable} from 'rxjs';
         MatCardModule,
         NgOptimizedImage,
         SortExperienceByYearPipe,
-        ColouredBoxComponent,
+        CardComponent,
         MatProgressBar,
         AsyncPipe
     ],

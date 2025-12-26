@@ -5,7 +5,7 @@
 } @else {
 <div class="experience-page-container">
     <h1>Experience</h1>
-    <app-coloured-box [colour]="Blue">
+    <app-card>
         <div class="dialog">
             <img
                     ngSrc="assets/sprites/cb_work.gif"
@@ -19,7 +19,7 @@
                 Welcome to my job experience page! As you can see, I was a Blackjack dealer long before I wrote my first program and I haven't looked back since!
             </p>
         </div>
-    </app-coloured-box>
+    </app-card>
     <div class="job-list">
         @for (job of (jobs$ | async) ?? [] | sortExperienceByYear; track job.id) {
         <mat-card class="job-card zoom-in">

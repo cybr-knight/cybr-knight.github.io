@@ -6,7 +6,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {SortEducationByDatePipe} from '../../shared/pipes/sort-education-by-date.pipe';
 import {EducationDownloadsComponent} from '../ui/education-downloads/education-downloads.component';
-import {ColouredBoxComponent} from '../../shared/ui/coloured-box/coloured-box.component';
+import {CardComponent} from '../../shared/ui/card/card.component';
 import {Colours} from '../../shared/enums/colours';
 import {Education} from '../../shared/models/education';
 import {EducationService} from "../data-access/education.service";
@@ -21,7 +21,7 @@ import {Observable} from 'rxjs';
         MatBottomSheetModule,
         AsyncPipe,
         SortEducationByDatePipe,
-        ColouredBoxComponent,
+        CardComponent,
         MatProgressBarModule,
     ],
     templateUrl: './education.component.html',

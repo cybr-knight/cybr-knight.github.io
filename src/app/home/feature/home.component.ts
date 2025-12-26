@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NgOptimizedImage } from "@angular/common";
-import { ColouredBoxComponent } from '../../shared/ui/coloured-box/coloured-box.component';
+import { CardComponent } from '../../shared/ui/card/card.component';
 import { TerminalComponent } from '../ui/terminal/terminal.component';
 import { Colours } from '../../shared/enums/colours';
 
@@ -8,7 +8,7 @@ import { Colours } from '../../shared/enums/colours';
     selector: 'app-home',
     imports: [
         NgOptimizedImage,
-        ColouredBoxComponent,
+        CardComponent,
         TerminalComponent
     ],
     templateUrl: './home.component.html',

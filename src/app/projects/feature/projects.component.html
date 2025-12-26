@@ -5,14 +5,14 @@
 } @else {
 <div class="projects-page-container">
     <h1>Projects</h1>
-    <app-coloured-box [colour]="Blue">
+    <app-card>
         <div class="dialog">
             <img ngSrc="assets/sprites/cb_idle.gif" height="160" width="160" alt="Gif of Corey" priority />
             <p>
                 My favourite aspect of programming is being able to create almost anything that I can think of. Here are some of my personal favourite projects.
             </p>
         </div>
-    </app-coloured-box>
+    </app-card>
     <div class="project-list">
         @for (project of (projects$ | async) ?? [] | sortProjectsByYear; track project.id) {
         <mat-card class="project-card zoom-in">

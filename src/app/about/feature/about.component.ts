@@ -4,7 +4,7 @@ import { MatTabsModule } from "@angular/material/tabs";
 import { FavouriteSoundsComponent } from '../ui/favourite-sounds/favourite-sounds.component';
 import { FavouriteMoviesComponent } from '../ui/favourite-movies/favourite-movies.component';
 import { FavouriteGamesComponent } from '../ui/favourite-games/favourite-games.component';
-import { ColouredBoxComponent } from '../../shared/ui/coloured-box/coloured-box.component';
+import { CardComponent } from '../../shared/ui/card/card.component';
 import { Colours } from '../../shared/enums/colours';
 
 @Component({
@@ -15,7 +15,7 @@ import { Colours } from '../../shared/enums/colours';
         FavouriteSoundsComponent,
         FavouriteMoviesComponent,
         FavouriteGamesComponent,
-        ColouredBoxComponent,
+        CardComponent,
     ],
     templateUrl: './about.component.html',
     styleUrl: './about.component.css'
