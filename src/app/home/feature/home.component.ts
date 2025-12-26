@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { NgOptimizedImage } from "@angular/common";
 import { CardComponent } from '../../shared/ui/card/card.component';
 import { TerminalComponent } from '../ui/terminal/terminal.component';
-import { Colours } from '../../shared/enums/colours';
 
 @Component({
     selector: 'app-home',
@@ -15,8 +14,6 @@ import { Colours } from '../../shared/enums/colours';
     styleUrl: './home.component.css'
 })
 export class HomeComponent {
-  readonly Blue = Colours.Blue;
-  readonly Green = Colours.Green;
   readonly textList = [
       "Hello world",
       "I'm Corey",
@@ -25,7 +22,7 @@ export class HomeComponent {
       "Please ask me about it",
       "I need validation",
       "I mean, technically I use IdeaVim in IntelliJ...",
-      "But I still get brownie points, right?",
+      "But that still counts, right?",
       "I also use a split ergonomic keyboard",
       "I know, it's pretty cool",
       "Did you know I care lots about ergonomics and optimisations?",
