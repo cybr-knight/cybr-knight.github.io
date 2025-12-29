@@ -4,13 +4,20 @@
     justify-content: center;
     width: clamp(200px, 80vw, 600px);
     padding: 20px;
-    background: rgba(23, 185, 255, 0.16);
-    backdrop-filter: blur(8px);
-    border: 1px solid rgba(29, 78, 216, 0.8);
     border-radius: 10px;
 }
 
-.card .secondary {
-    background: rgba(255, 147, 23, 0.16);
-    border: 1px solid rgba(216, 101, 29, 0.8);
+.primary {
+    background: rgba(133, 201, 230, 0.6);
+    border: 2px solid rgba(29, 78, 216, 0.8);
+}
+
+.secondary {
+    background: rgba(255, 163, 59, 0.6);
+    border: 2px solid rgba(216, 101, 29, 0.8);
+}
+
+.tertiary {
+    background: rgba(155, 213, 79, 0.6);
+    border: 2px solid rgba(138, 216, 29, 0.8);
 }
