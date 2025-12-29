@@ -1,13 +1,12 @@
 .card {
     display: flex;
     flex-direction: column;
-    max-width: 600px;
-    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    width: clamp(200px, 80vw, 600px);
     padding: 20px;
-
     background: rgba(23, 185, 255, 0.16);
     backdrop-filter: blur(8px);
-
     border: 1px solid rgba(29, 78, 216, 0.8);
     border-radius: 10px;
 }

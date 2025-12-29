@@ -1,10 +1,12 @@
 import {Component, input} from '@angular/core';
 import {MatButtonModule} from "@angular/material/button";
+import {MatIconModule} from "@angular/material/icon";
 
 @Component({
   selector: 'app-translator',
   imports: [
       MatButtonModule,
+      MatIconModule,
   ],
   templateUrl: './translator.component.html',
   styleUrl: './translator.component.css',

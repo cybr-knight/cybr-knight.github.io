@@ -1,4 +1,4 @@
-<div class="about-page-container">
+<div class="page-container">
     <h1>About Me</h1>
     <app-card>
         <div class="dialog">
@@ -9,16 +9,22 @@
             />
         </div>
     </app-card>
+
+    <h2>Technologies</h2>
+    <p>No portfolio is complete without a list of technologies used. Instead of listing every technology under the sun that I have touched, I will instead showcase the languages, tools, and frameworks that I use professionally every day.</p>
+
+    <h2>Media</h2>
+    <p>A venn diagram of people who are programmers and people who are nerds is a single circle. I am no exception.</p>
     <div class="favourite-stuff-container">
         <mat-tab-group dynamicHeight>
-            <mat-tab label="Sounds">
-                <app-favourite-sounds></app-favourite-sounds>
-            </mat-tab>
             <mat-tab label="Movies">
                 <app-favourite-movies></app-favourite-movies>
             </mat-tab>
             <mat-tab label="Games">
                 <app-favourite-games></app-favourite-games>
+            </mat-tab>
+            <mat-tab label="Sounds">
+                <app-favourite-sounds></app-favourite-sounds>
             </mat-tab>
         </mat-tab-group>
     </div>
