@@ -1,9 +1,19 @@
 .terminal-window {
-    width: clamp(300px, 80vw, 800px);
+    width: clamp(100px, 80vw, 800px);
     border-radius: 10px;
-    font-family: "Fira Code", "JetBrains Mono", "Ubuntu Mono", ui-monospace, SFMono-Regular, monospace;
+    font-family:
+            "JetBrains Mono",
+            "Consolas",
+            "Lucida Console",
+            "Menlo",
+            "Monaco",
+            "DejaVu Sans Mono",
+            "Ubuntu Mono",
+            "Courier New",
+            monospace;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
     margin: 40px 0;
+    overflow: hidden;
 }
 
 .gruvbox {
@@ -125,11 +135,12 @@
     .terminal-window {
         width: 100%;
         margin: 24px 0;
+        padding: 0;
     }
 
     .terminal-titlebar {
         height: 32px;
-        font-size: 10px;
+        font-size: 8px;
         padding: 0 8px;
     }
 
@@ -139,12 +150,12 @@
     }
 
     .control {
-        width: 10px;
-        height: 10px;
+        width: 6px;
+        height: 6px;
     }
 
     .terminal-content {
-        font-size: 10px;
+        font-size: 8px;
         line-height: 1.45;
     }
 

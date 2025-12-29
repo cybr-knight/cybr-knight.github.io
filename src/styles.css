@@ -13,7 +13,16 @@ body {
 body {
   padding: 0;
   margin: 0;
-  font-family: monospace;
+  font-family:
+          "JetBrains Mono",
+          "Consolas",
+          "Lucida Console",
+          "Menlo",
+          "Monaco",
+          "DejaVu Sans Mono",
+          "Ubuntu Mono",
+          "Courier New",
+          monospace;
   font-size: large;
   background-color: rgb(26, 26, 26);
 }
