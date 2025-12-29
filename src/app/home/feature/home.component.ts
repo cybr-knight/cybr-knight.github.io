@@ -27,10 +27,10 @@ export class HomeComponent {
       "I know, it's pretty cool",
       "Did you know I care lots about ergonomics and optimisations?",
       "No?",
-      "Well, I do.",
+      "Well, I do",
       "Are you still here?",
       "I thought you would have gone to a different page by now...",
       "I haven't accounted for this scenario",
-      "I'll just start from the top."
+      "I'll just start from the top"
   ];
 }
