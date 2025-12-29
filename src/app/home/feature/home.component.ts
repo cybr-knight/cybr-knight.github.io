@@ -21,7 +21,7 @@ export class HomeComponent {
       "I use vim btw",
       "Please ask me about it",
       "I need validation",
-      "I mean, technically I use IdeaVim in IntelliJ...",
+      "I mean, technically I use IdeaVim in IntelliJ",
       "But that still counts, right?",
       "I also use a split ergonomic keyboard",
       "I know, it's pretty cool",
@@ -29,7 +29,7 @@ export class HomeComponent {
       "No?",
       "Well, I do",
       "Are you still here?",
-      "I thought you would have gone to a different page by now...",
+      "I thought you would have gone to a different page by now",
       "I haven't accounted for this scenario",
       "I'll just start from the top"
   ];

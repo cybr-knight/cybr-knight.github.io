@@ -39,11 +39,6 @@
     justify-content: start;
 }
 
-.content{
-    width: 100%;
-}
-
 .active{
     background-color: var(--primary);
-    text-decoration-color: antiquewhite;
 }

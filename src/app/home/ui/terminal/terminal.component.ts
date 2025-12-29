@@ -11,7 +11,8 @@ interface IntervalObserver {
     styleUrl: './terminal.component.css'
 })
 export class TerminalComponent {
-    readonly intervalMilliseconds = 70;
+    readonly writeInterval = 70; // milliseconds
+    readonly deleteInterval = 40; // milliseconds
     readonly waitTime = 1200;
     displayText = "";
 
@@ -33,7 +34,7 @@ export class TerminalComponent {
             }
             this.displayText += word[index];
             index++;
-        }, this.intervalMilliseconds);
+        }, this.writeInterval);
     }
 
     // periodically deletes a word one character at a time
@@ -47,7 +48,7 @@ export class TerminalComponent {
             }
 
             this.displayText = this.displayText.slice(0, -1)
-        }, this.intervalMilliseconds);
+        }, this.deleteInterval);
     }
 
     printMultipleWords(observer: IntervalObserver): void {
