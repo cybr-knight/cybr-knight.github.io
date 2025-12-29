@@ -1,0 +1,34 @@
+[
+  {
+    "id": 0,
+    "title": "Software Developer",
+    "organisation": "Department of Health and Aged Care",
+    "startDate": "2024",
+    "endDate": "Current",
+    "description": "Leading modernisation efforts to rebuild legacy applications with a cloud-centred approach using Angular, Micronaut, and Azure."
+  },
+  {
+    "id": 1,
+    "title": "PASS Leader",
+    "organisation": "University of Tasmania",
+    "startDate": "2022",
+    "endDate": "2023",
+    "description": "Planned and facilitated group study sessions for introductory programming units at the University of Tasmania. Classes taught with Java and C."
+  },
+  {
+    "id": 2,
+    "title": "Software Development Internship",
+    "organisation": "AARNET",
+    "startDate": "2023",
+    "endDate": "2023",
+    "description": "Developed a CLI tool for the filesender project using Node.js."
+  },
+  {
+    "id": 3,
+    "title": "Table Games Dealer",
+    "organisation": "Wrest Point Casino",
+    "startDate": "2017",
+    "endDate": "2023",
+    "description": "Dealt table games such as Blackjack and Baccarat to a wide range of players. I took a lot of money ☹️."
+  }
+]
