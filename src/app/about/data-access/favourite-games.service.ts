@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
-import { Game } from "../../shared/models/game";
+import { Game } from "../../core/models/game";
 import { Observable } from "rxjs";
 
 const PATH = './assets/data/games.json';

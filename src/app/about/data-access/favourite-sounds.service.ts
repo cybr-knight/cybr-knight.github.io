@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
-import { Sound } from "../../shared/models/sound";
+import { Sound } from "../../core/models/sound";
 import { Observable } from "rxjs";
 
 const PATH = './assets/data/sounds.json';

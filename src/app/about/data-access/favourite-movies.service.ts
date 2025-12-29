@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
-import { Movie } from "../../shared/models/movie";
+import { Movie } from "../../core/models/movie";
 import { Observable } from "rxjs";
 
 const PATH = './assets/data/movies.json'

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Job } from '../../shared/models/job';
+import { Job } from '../../core/models/job';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 

@@ -5,7 +5,6 @@ import { FavouriteSoundsComponent } from '../ui/favourite-sounds/favourite-sound
 import { FavouriteMoviesComponent } from '../ui/favourite-movies/favourite-movies.component';
 import { FavouriteGamesComponent } from '../ui/favourite-games/favourite-games.component';
 import { CardComponent } from '../../shared/ui/card/card.component';
-import { Colours } from '../../shared/enums/colours';
 import {TranslatorComponent} from "../../shared/ui/translator/translator.component";
 
 @Component({
@@ -23,5 +22,4 @@ import {TranslatorComponent} from "../../shared/ui/translator/translator.compone
     styleUrl: './about.component.css'
 })
 export class AboutComponent {
-  readonly Blue = Colours.Blue;
 }

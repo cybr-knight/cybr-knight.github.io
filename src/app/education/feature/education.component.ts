@@ -7,8 +7,7 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {SortEducationByDatePipe} from '../../shared/pipes/sort-education-by-date.pipe';
 import {EducationDownloadsComponent} from '../ui/education-downloads/education-downloads.component';
 import {CardComponent} from '../../shared/ui/card/card.component';
-import {Colours} from '../../shared/enums/colours';
-import {Education} from '../../shared/models/education';
+import {Education} from '../../core/models/education';
 import {EducationService} from "../data-access/education.service";
 import {Observable} from 'rxjs';
 
@@ -28,8 +27,6 @@ import {Observable} from 'rxjs';
     styleUrl: './education.component.css'
 })
 export class EducationComponent {
-    readonly Blue = Colours.Blue;
-
     educationList$: Observable<Education[]>;
 
     constructor(private educationService: EducationService, private _bottomSheet: MatBottomSheet) {

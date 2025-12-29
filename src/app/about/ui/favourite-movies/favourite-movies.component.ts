@@ -2,7 +2,7 @@ import {Component} from '@angular/core';
 import {AsyncPipe} from "@angular/common";
 import {MatProgressBar} from '@angular/material/progress-bar';
 import {FavouriteMoviesService} from "../../data-access/favourite-movies.service";
-import {Movie} from "../../../shared/models/movie";
+import {Movie} from "../../../core/models/movie";
 import {Observable} from 'rxjs';
 
 @Component({

@@ -5,8 +5,7 @@ import {MatProgressBar} from '@angular/material/progress-bar';
 import {ExperienceService} from "../data-access/experience.service";
 import {SortExperienceByYearPipe} from '../../shared/pipes/sort-experience-by-year.pipe';
 import {CardComponent} from '../../shared/ui/card/card.component';
-import {Job} from '../../shared/models/job';
-import {Colours} from '../../shared/enums/colours';
+import {Job} from '../../core/models/job';
 import {Observable} from 'rxjs';
 
 @Component({
@@ -23,8 +22,6 @@ import {Observable} from 'rxjs';
     styleUrl: './experience.component.css'
 })
 export class ExperienceComponent {
-    readonly Blue = Colours.Blue;
-
     jobs$: Observable<Job[]>;
 
     constructor(private experienceService: ExperienceService) {

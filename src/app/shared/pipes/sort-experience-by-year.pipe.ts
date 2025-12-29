@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { Job } from '../models/job';
+import { Job } from '../../core/models/job';
 
 @Pipe({
   name: 'sortExperienceByYear',

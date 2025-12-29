@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {AsyncPipe} from "@angular/common";
 import {MatProgressBar} from '@angular/material/progress-bar';
-import {Sound} from "../../../shared/models/sound";
+import {Sound} from "../../../core/models/sound";
 import {FavouriteSoundsService} from "../../data-access/favourite-sounds.service";
 import {Observable} from 'rxjs';
 

@@ -6,8 +6,7 @@ import {MatProgressBar} from '@angular/material/progress-bar';
 import {CardComponent} from '../../shared/ui/card/card.component';
 import {SortProjectsByYearPipe} from '../../shared/pipes/sort-projects-by-year.pipe';
 import {ProjectsService} from "../data-access/projects.service";
-import {Colours} from '../../shared/enums/colours';
-import {Project} from '../../shared/models/project';
+import {Project} from '../../core/models/project';
 import {Observable} from 'rxjs';
 
 @Component({
@@ -25,8 +24,6 @@ import {Observable} from 'rxjs';
     styleUrl: './projects.component.css'
 })
 export class ProjectsComponent {
-    readonly Blue = Colours.Blue;
-
     projects$: Observable<Project[]>;
 
     constructor(private projectService: ProjectsService) {

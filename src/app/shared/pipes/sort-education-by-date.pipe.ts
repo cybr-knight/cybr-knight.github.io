@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { Education } from '../models/education';
+import { Education } from '../../core/models/education';
 
 @Pipe({
   name: 'sortEducationByDate',

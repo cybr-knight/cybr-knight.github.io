@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Education } from '../../shared/models/education';
+import { Education } from '../../core/models/education';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
