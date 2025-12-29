@@ -8,16 +8,16 @@
 }
 
 .primary {
-    background: rgba(133, 201, 230, 0.6);
+    background: rgba(81, 187, 230, 0.2);
     border: 2px solid rgba(29, 78, 216, 0.8);
 }
 
 .secondary {
-    background: rgba(255, 163, 59, 0.6);
+    background: rgba(255, 163, 59, 0.2);
     border: 2px solid rgba(216, 101, 29, 0.8);
 }
 
 .tertiary {
-    background: rgba(155, 213, 79, 0.6);
+    background: rgba(155, 213, 79, 0.2);
     border: 2px solid rgba(138, 216, 29, 0.8);
 }

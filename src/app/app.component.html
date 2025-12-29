@@ -22,12 +22,30 @@
 <mat-drawer-container class="drawer-container">
   <mat-drawer #drawer [mode]="mobileQuery.matches ? 'over' : 'side'" [opened]="!mobileQuery.matches">
     <nav class="side-nav">
-      <button mat-button class="nav-button" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</button>
-      <button mat-button class="nav-button" routerLink="/about" routerLinkActive="active">About</button>
-      <button mat-button class="nav-button" routerLink="/experience" routerLinkActive="active">Experience</button>
-      <button mat-button class="nav-button" routerLink="/education" routerLinkActive="active">Education</button>
-      <button mat-button class="nav-button" routerLink="/projects" routerLinkActive="active">Projects</button>
-      <button mat-button class="nav-button" routerLink="/keyboards" routerLinkActive="active">Keyboards</button>
+      <button mat-button class="nav-button" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+          <mat-icon aria-hidden="false" aria-label="home" fontIcon="home"/>
+          Home
+      </button>
+      <button mat-button class="nav-button" routerLink="/about" routerLinkActive="active">
+          <mat-icon aria-hidden="false" aria-label="about" fontIcon="info"/>
+          About
+      </button>
+      <button mat-button class="nav-button" routerLink="/experience" routerLinkActive="active">
+          <mat-icon aria-hidden="false" aria-label="experience" fontIcon="work_history"/>
+          Experience
+      </button>
+      <button mat-button class="nav-button" routerLink="/education" routerLinkActive="active">
+          <mat-icon aria-hidden="false" aria-label="education" fontIcon="book"/>
+          Education
+      </button>
+      <button mat-button class="nav-button" routerLink="/projects" routerLinkActive="active">
+          <mat-icon aria-hidden="false" aria-label="projects" fontIcon="construction"/>
+          Projects
+      </button>
+      <button mat-button class="nav-button" routerLink="/keyboards" routerLinkActive="active">
+          <mat-icon aria-hidden="false" aria-label="writing" fontIcon="lightbulb"/>
+          Writing
+      </button>
     </nav>
   </mat-drawer>
   <main>

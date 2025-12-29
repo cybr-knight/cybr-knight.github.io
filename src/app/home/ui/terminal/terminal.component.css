@@ -7,7 +7,7 @@
 }
 
 .gruvbox {
-    --bg: #282828;
+    --bg: rgba(18, 18, 18, 0.8);
     --bg-soft: #32302f;
     --fg: #ebdbb2;
     --fg-dim: #a89984;
@@ -111,7 +111,7 @@
 @media (max-width: 768px) {
     .terminal-window {
         width: 95vw;
-        margin: 24px auto;
+        margin: 24px 0;
     }
 
     .terminal-content {
@@ -122,9 +122,14 @@
 }
 
 @media (max-width: 480px) {
+    .terminal-window {
+        width: 100%;
+        margin: 24px 0;
+    }
+
     .terminal-titlebar {
         height: 32px;
-        font-size: 12px;
+        font-size: 10px;
         padding: 0 8px;
     }
 
@@ -139,7 +144,7 @@
     }
 
     .terminal-content {
-        font-size: 12px;
+        font-size: 10px;
         line-height: 1.45;
     }
 
