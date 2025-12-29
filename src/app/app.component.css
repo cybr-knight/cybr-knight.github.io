@@ -16,13 +16,12 @@
     margin-right: 20px;
 }
 
-.nav-bar-container{
+.drawer-container{
     position: fixed;
     top: 55px;
     bottom:45px;
     left: 0;
     right: 0;
-    background: linear-gradient(to bottom, whitesmoke, whitesmoke 60%, rgb(211, 211, 211));
     margin: 0;
     padding: 0;
 }
@@ -32,19 +31,19 @@
     flex-direction: column;
     width: 200px;
     height: 100%;
-    background-color: white;
-    text-align: right;
+    background-color:  #e4e2df;;
 }
 
 .nav-button{
     width: 100%;
+    justify-content: start;
 }
 
-.nav-content{
+.content{
     width: 100%;
 }
 
 .active{
-    background-color: #63C5DA;
+    background-color: var(--primary);
     text-decoration-color: antiquewhite;
 }

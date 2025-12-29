@@ -19,7 +19,7 @@
     </a>
   </mat-toolbar>
 </header>
-<mat-drawer-container class="nav-bar-container">
+<mat-drawer-container class="drawer-container">
   <mat-drawer #drawer [mode]="mobileQuery.matches ? 'over' : 'side'" [opened]="!mobileQuery.matches">
     <nav class="side-nav">
       <button mat-button class="nav-button" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</button>
@@ -30,7 +30,7 @@
       <button mat-button class="nav-button" routerLink="/keyboards" routerLinkActive="active">Keyboards</button>
     </nav>
   </mat-drawer>
-  <main class="nav-content">
+  <main>
     <router-outlet></router-outlet>
   </main>
 </mat-drawer-container>
