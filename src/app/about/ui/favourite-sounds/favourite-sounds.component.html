@@ -3,7 +3,7 @@
     <mat-progress-bar mode="indeterminate"></mat-progress-bar>
 </div>
 } @else {
-<div class="list-container">
+<div class="favourite-items-list">
     <h3>My top {{(soundsList$ | async)?.length}} favourite sounds 🔊</h3>
     <ol class="sound-list">
         @for (sound of (soundsList$ | async) ?? []; track sound.id) {

@@ -3,7 +3,7 @@
     <mat-progress-bar mode="indeterminate"></mat-progress-bar>
 </div>
 } @else {
-<div class="list-container">
+<div class="favourite-items-list">
     <h3>My top {{(movies$ | async)?.length}} favourite movies 🎥</h3>
     <ol>
         @for (movie of (movies$ | async) ?? []; track movie.id) {

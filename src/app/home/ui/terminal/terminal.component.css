@@ -1,5 +1,5 @@
 .terminal-window {
-    width: clamp(500px, 80vw, 800px);
+    width: clamp(300px, 80vw, 800px);
     border-radius: 10px;
     font-family: "Fira Code", "JetBrains Mono", "Ubuntu Mono", ui-monospace, SFMono-Regular, monospace;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
