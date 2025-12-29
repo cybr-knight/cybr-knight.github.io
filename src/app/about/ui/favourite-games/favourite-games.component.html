@@ -1,15 +1,15 @@
 @if ((games$ | async)?.length === 0) {
 <div class="loading-container">
-    <mat-progress-bar mode="indeterminate" color="warn"></mat-progress-bar>
+    <mat-progress-bar mode="indeterminate"></mat-progress-bar>
 </div>
 } @else {
-<div class="favourite-games-container">
-    <h2>My top {{(games$ | async)?.length}} favourite games 🎮</h2>
+<div class="list-container">
+    <h3>My top {{(games$ | async)?.length}} favourite games 🎮</h3>
     <ol>
         @for(game of (games$ | async) ?? []; track game.id) {
-        <li>
-            <h3>{{game.title}} ({{game.year}})</h3>
-        </li>
+            <li>
+                <p>{{game.title}} ({{game.year}})</p>
+            </li>
         }
     </ol>
 </div>
