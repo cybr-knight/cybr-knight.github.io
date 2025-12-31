@@ -1,14 +1,5 @@
-.education-page-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
 .education-list{
+    margin: 40px;
     display: grid;
     grid-auto-flow: dense;
     grid-auto-rows: minmax(100px, auto);

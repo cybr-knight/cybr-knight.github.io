@@ -17,6 +17,9 @@
 }
 
 .drawer-container{
+    background-color: #f1f0ee;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px), radial-gradient(rgba(0, 0, 0, 0.02) 1px, transparent 1px);
+    background-size: 3px 3px, 6px 6px;
     position: fixed;
     top: 55px;
     bottom:45px;
