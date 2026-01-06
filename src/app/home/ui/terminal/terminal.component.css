@@ -1,5 +1,5 @@
 .terminal-window {
-    width: clamp(100px, 80vw, 800px);
+    width: clamp(100px, 80vw, 1200px);
     border-radius: 10px;
     font-family:
             "JetBrains Mono",

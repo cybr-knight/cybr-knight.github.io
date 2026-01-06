@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: clamp(200px, 80vw, 600px);
-    padding: 20px;
+    width: clamp(200px, 80vw, 1400px);
+    padding: 40px;
     border-radius: 10px;
 }
 
