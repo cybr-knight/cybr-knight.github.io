@@ -32,15 +32,15 @@ export class AppComponent {
     readonly GithubSvg = '/assets/logos/github/github-mark-white.svg';
     readonly LinkedinSvg = '/assets/logos/linkedin/linkedin.svg';
     readonly ItchSvg = '/assets/logos/itch/itchio-logo-textless-white.svg';
-    readonly MaxWidth = 1000;
+    readonly MaxWidth = 1550;
 
-    mobileQuery: MediaQueryList;
+    narrowScreen: MediaQueryList;
 
     private _mobileQueryListener: () => void;
 
     constructor(changeDetectorRef: ChangeDetectorRef, media: MediaMatcher) {
-        this.mobileQuery = media.matchMedia(`(max-width: ${this.MaxWidth}px)`);
+        this.narrowScreen = media.matchMedia(`(max-width: ${this.MaxWidth}px)`);
         this._mobileQueryListener = () => changeDetectorRef.detectChanges();
-        this.mobileQuery.addListener(this._mobileQueryListener);
+        this.narrowScreen.addListener(this._mobileQueryListener);
     }
 }
