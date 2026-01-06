@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: clamp(200px, 80vw, 1400px);
+    width: clamp(100px, 80vw, 1400px);
     padding: 40px;
     border-radius: 10px;
 }
@@ -20,4 +20,16 @@
 .tertiary {
     background: rgba(155, 213, 79, 0.2);
     border: 2px solid rgba(138, 216, 29, 0.8);
+}
+
+@media (max-width: 768px) {
+    .card {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        padding: 10px;
+    }
 }
