@@ -23,5 +23,20 @@
     "id": 4,
     "title": "Blade Runner",
     "year": 1982
+  },
+  {
+    "id": 5,
+    "title": "Spirited Away",
+    "year": 2001
+  },
+  {
+    "id": 6,
+    "title": "John Wick",
+    "year": 2014
+  },
+  {
+    "id": 7,
+    "title": "Paddington 2",
+    "year": 2017
   }
 ]
