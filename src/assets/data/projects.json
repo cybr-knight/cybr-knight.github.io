@@ -6,7 +6,7 @@
     "techStack": "React, Express, Javascript, Typescript, MySQL",
     "image": "/assets/projects/tas-test.png",
     "link": "https://www.youtube.com/watch?v=USqBg76po3I",
-    "description": "Dashboard to allow researchers for the TAS Test Dimentia Research team to create new database tables and add / view data of the created tables. Allows non-technical researchers to easily interact with the database. Project is closed-source."
+    "description": "Dashboard to allow researchers for the TAS Test Dimentia Research team to create new database tables and add / view data of the created tables. Project is closed-source."
   },
   {
     "id": 1,
@@ -14,7 +14,7 @@
     "year": 2023,
     "techStack": "Flutter, Dart, Firebase",
     "image": "/assets/projects/baby-tracker.png",
-    "link": "https://github.com/coreybigboi/BabyTracker_Flutter",
+    "link": "https://github.com/cybr-kn1ght/BabyTracker_Flutter",
     "description": "Cross-platform mobile application that allows parents to record and track their baby's feeds, nappies, and sleeps."
   },
   {
