@@ -1,0 +1,74 @@
+[
+  {
+    "id": 0,
+    "name": "TAS Test Data Dashboard",
+    "year": 2023,
+    "techStack": "React, Express, Javascript, Typescript, MySQL",
+    "image": "/assets/projects/tas-test.png",
+    "link": "https://www.youtube.com/watch?v=USqBg76po3I",
+    "description": "Dashboard to allow researchers for the TAS Test Dimentia Research team to create new database tables and add / view data of the created tables. Project is closed-source."
+  },
+  {
+    "id": 1,
+    "name": "Baby Tracker",
+    "year": 2023,
+    "techStack": "Flutter, Dart, Firebase",
+    "image": "/assets/projects/baby-tracker.png",
+    "link": "https://github.com/cybr-kn1ght/BabyTracker_Flutter",
+    "description": "Cross-platform mobile application that allows parents to record and track their baby's feeds, nappies, and sleeps."
+  },
+  {
+    "id": 2,
+    "name": "Sword Smithy",
+    "year": 2022,
+    "techStack": "Unity, C#",
+    "image": "/assets/projects/sword-smithy.png",
+    "link": "https://flynnmac.itch.io/sword-smithy",
+    "description": "Live out your dreams of being a medieval blacksmith! Hours of content with many weapons to craft and customers to satisfy."
+  },
+  {
+    "id": 3,
+    "name": "Room 24: VR Experience",
+    "year": 2022,
+    "techStack": "Unity, C#",
+    "image": "/assets/projects/room24.png",
+    "link": "https://corey-bigboi.itch.io/kit208-assignment-2-vr",
+    "description": "A short VR experience that challenges the player to stack a tower of blocks while under extreme pressure."
+  },
+  {
+    "id": 4,
+    "name": "Port Arthur AR Experience",
+    "year": 2022,
+    "techStack":"Unity, C#",
+    "image": "/assets/projects/port-arthur.png",
+    "link": "https://corey-bigboi.itch.io/port-arthur-ar",
+    "description": "Learn about the history of Port Arthur and its inhabitants through this astounding AR application."
+  },
+  {
+    "id": 5,
+    "name": "Gambling Awareness w/ Yoda AR ",
+    "year": 2022,
+    "techStack": "Unity, C#",
+    "image": "/assets/projects/yoda.png",
+    "link": "https://corey-bigboi.itch.io/yodas-gambling-awareness-app",
+    "description": "Learn the dark side of gambling from non other than Jedi Grand Master Yoda."
+  },
+  {
+    "id": 6,
+    "name": "Sad but Square",
+    "year": 2021,
+    "techStack":"Unity, C#",
+    "image": "/assets/projects/sad-but-square.png",
+    "link": "https://corey-bigboi.itch.io/kit109-exam-game-sad-but-square",
+    "description": "A charming puzzle game that challenges the player to navigate varied obstacle courses with limited movement options."
+  },
+  {
+    "id": 7,
+    "name": "Cave Divin",
+    "year": 2021,
+    "techStack": "Unity, C#",
+    "image": "/assets/projects/cave-diving.png",
+    "link": "https://corey-bigboi.itch.io/cave-divin",
+    "description": "Run, jump, and glide through the dangerous depths of the cursed cave to save your girlfriend."
+  }
+]
